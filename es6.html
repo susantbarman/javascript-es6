@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+
+	<script>
+
+		/*
+
+		function mojs(love){ //function scope
+
+			if(love){
+				let name="susant";
+				const sname="Barman"; //block scopee
+				console.log("my name is "+name+" "+sname);
+			}
+		}
+
+		mojs(true);
+		
+
+		function mojs(love){ //function scope
+
+			if(love){
+				var name="susant";
+				var sname="Barman"; //block scopee
+				
+			}
+			console.log("my name is "+name+" "+sname);
+		}
+
+		mojs(true);
+
+
+
+		//template string
+
+		let name="susant ";
+		let sname="barman best Developer";
+
+		console.log(`my name is ${name} ${sname}`);
+
+		
+
+		//string methode
+
+		var fname="susant";
+
+		const fn=`${fname}`;
+
+		console.log(`${fname}`.startsWith('s'));
+		console.log(`${fname}`.endsWith('t'));
+		console.log(`${fname}`.includes('susant'));
+		console.log(`${fname} `.repeat(5 ));
+
+
+		//array distructuring
+
+		const language=["js","php","python","sql"];
+
+		// let[top1,top2,top3,top4]=language;
+		let[top1,,,top4]=language;
+
+		console.log("my fev language is " + top4);
+		console.log(`my fev language is ${top1}`);
+
+
+		//swap two number
+
+		let a=10;
+		let b=20;
+		[a,b]=[b,a]
+
+		console.log(`the a value is ${a} and b value is ${b}`);
+
+
+
+		//object distructuring
+
+		const biodata={
+
+			name:"susant",
+			age:24,
+			work:"web Developer",
+			hobb:{
+				first:'traveling',
+				sec:'codding'
+			}
+		}
+
+		let{name,age,work:wk,hobb}=biodata;
+		console.log(`my name is ${name}. and my age is ${age}and i do ${wk} my hobbi is hoobb ${hobb.first}`);
+
+
+
+		//fat arow function
+
+		const aa=10;
+		const bb=20;
+		const sum =()=>aa+bb;//{return aa+bb} 
+		console.log(sum());
+
+		//default paramerrer
+		const mult = (x,y=4) => {
+
+			console.log(`the multiplication is ${x*y}`);
+		}
+
+		mult(4);
+
+
+		//rest paramerer
+
+		function any(...anything){
+			//let total=0;
+			// for(let i of anything){
+			// 	total=total+1;
+			// }
+			// console.log(total);
+			console.log(...anything);
+		}
+		any(2,3,5,9,4,5);
+
+
+		
+
+
+		//spreed operator
+
+		// it is mostly used variable array.More than 1 value are expected
+
+		// es5
+		function sum(a,b,c){
+
+			console.log(a+b+c);
+		}
+
+		sum(5,10,15);
+
+		///============////
+
+		var arrval=[5,10,15]
+
+		sum.apply(null,arrval);
+
+		// es6
+		sum(...arrval);
+
+
+
+
+		//Replace concat
+
+		var a=[1,2,5,];
+		var b=[8,4,5];
+
+		// var c= a.concat(b);
+		// es6
+		var c=[...a,...b];
+
+		console.log(c);
+
+	*/
+
+	// math object es6 
+
+	// sign()
+	// trunc()
+
+	let number= 10.5589;
+	// console.log(Math.sign(number));
+	console.log(Math.trunc(number));
+	console.log(Math.floor(number));
+
+
+	// Exponentiation Operator 
+
+	let a=10;
+	let b=4;
+	console.log(a**b);
+	
+
+
+
+
+	</script>
+	
+</body>
+</html>
